@@ -35,7 +35,10 @@ img  {
 
 .contact {
 color: #434455;
+}
 
+.contact:last-child::after {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo {
@@ -47,7 +50,6 @@ color: #434455;
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-    position: relative;
 }
 
 .studio {
@@ -71,6 +73,20 @@ nav {
     color: #2e2f42;
     padding: 24px 0;
     display: block;
+    position: relative;
+    color: #404bbf;
+}
+
+.navigation::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation:hover, .navigation:focus {
