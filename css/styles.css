@@ -135,8 +135,15 @@ address {
     padding: 120px 0;
 }
 
-.advantages-icons {
-   
+.advantages-icons-div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    border: 1px solid var(--light-slate);
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background-color: #f4f4fd;
 }
 
 .visually-hidden {
@@ -163,6 +170,15 @@ address {
 
 .list-advantages-points {
     width: calc((100% - 72px) / 4);
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 8px;
+        border: 1px solid #000;
+            width: 264px;
+            height: 224px;
+    
 }
 
 .headline {
