@@ -196,9 +196,7 @@ address {
     flex-direction: column;
     gap: 8px;
     border: 1px solid #000;
-    width: 264px;
     height: 224px;
-    
 }
 
 .headline {
@@ -442,12 +440,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 .studio-footer {
     color: #f4f4fd;
-}
-
-.social-links-footer {
-    display: flex;
-    align-items: baseline;
-    margin-right: 120px;
 }
 
 .footer-text-socials {
