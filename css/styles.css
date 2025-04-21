@@ -410,7 +410,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 .footer {
     padding: 100px 0;
-
 }
 
 .logo-footer {
@@ -433,11 +432,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     color: #f4f4fd;
 }
 
-.div-footer {
+.social-links-footer {
     display: flex;
     align-items: baseline;
     margin-right: 120px;
-
 }
 
 .footer-text-socials {
